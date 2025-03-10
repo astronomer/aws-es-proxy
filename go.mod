@@ -1,11 +1,11 @@
 module github.com/abutaha/aws-es-proxy
 
-go 1.18
+go 1.20
 
 require (
-	github.com/aws/aws-sdk-go v1.42.4
+	github.com/aws/aws-sdk-go v1.44.215
 	github.com/sirupsen/logrus v1.9.3
-	go.mongodb.org/mongo-driver v1.5.1
+	go.mongodb.org/mongo-driver v1.11.2
 	golang.org/x/net v0.17.0
 )
 
